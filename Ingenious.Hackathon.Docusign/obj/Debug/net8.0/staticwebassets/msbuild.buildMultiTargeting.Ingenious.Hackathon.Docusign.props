@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Ingenious.Hackathon.Docusign.props" />
+</Project>

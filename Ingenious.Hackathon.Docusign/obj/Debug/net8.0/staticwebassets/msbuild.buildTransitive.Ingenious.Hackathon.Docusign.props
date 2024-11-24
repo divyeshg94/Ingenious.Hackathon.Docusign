@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Ingenious.Hackathon.Docusign.props" />
+</Project>
