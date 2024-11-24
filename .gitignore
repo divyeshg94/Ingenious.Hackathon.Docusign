@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.vsidx
+/.vs
+/Ingenious.Hackathon.Docusign/obj/*
+/Ingenious.Hackathon.Docusign/bin/*
+/Ingenious.Hackathon.Docusign/bin/Debug/net8.0/Ingenious.Hackathon.Docusign.pdb
+/Ingenious.Hackathon.Docusign/obj/Debug/net8.0/Ingenious.Hackathon.Docusign.csproj.FileListAbsolute.txt
+/Ingenious.Hackathon.Docusign/obj/Debug/net8.0/Ingenious.Hackathon.Docusign.dll
+/Ingenious.Hackathon.Docusign/obj/Debug/net8.0/Ingenious.Hackathon.Docusign.pdb
