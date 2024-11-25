@@ -4,8 +4,8 @@
 
 *.vsidx
 /.vs
-/Ingenious.Hackathon.Docusign/obj/*
-/Ingenious.Hackathon.Docusign/bin/*
+/Ingenious.Hackathon.Docusign/obj/
+/Ingenious.Hackathon.Docusign/bin/
 /Ingenious.Hackathon.Docusign/bin/Debug/net8.0/Ingenious.Hackathon.Docusign.pdb
 /Ingenious.Hackathon.Docusign/obj/Debug/net8.0/Ingenious.Hackathon.Docusign.csproj.FileListAbsolute.txt
 /Ingenious.Hackathon.Docusign/obj/Debug/net8.0/Ingenious.Hackathon.Docusign.dll
@@ -17,3 +17,13 @@ obj/
 /Ingenious.Hackathon.Docusign/bin/Debug/net8.0/appsettings.json
 /Ingenious.Hackathon.Docusign/obj/Debug/net8.0/apphost.exe
 /Ingenious.Hackathon.Docusign/obj/Debug/net8.0/Ingenious.Hackathon.Docusign.AssemblyInfo.cs
+/Ingenious.Hackathon.Docusign/obj/Debug/net8.0/Ingenious.Hackathon.Docusign.csproj.CoreCompileInputs.cache
+/Ingenious.Hackathon.Docusign/obj/Debug/net8.0/Ingenious.Hackathon.Docusign.GeneratedMSBuildEditorConfig.editorconfig
+/Ingenious.Hackathon.Docusign/obj/Ingenious.Hackathon.Docusign.csproj.nuget.dgspec.json
+/Ingenious.Hackathon.Docusign/obj/project.assets.json
+/Ingenious.Hackathon.Docusign/obj/project.nuget.cache
+/Ingenious.Hackathon.Docusign/wwwroot/Docusign.private.key
+/Ingenious.Hackathon.Docusign/obj/Debug/net8.0/staticwebassets/msbuild.Ingenious.Hackathon.Docusign.Microsoft.AspNetCore.StaticWebAssets.props
+/Ingenious.Hackathon.Docusign/obj/Debug/net8.0/staticwebassets.build.json
+/Ingenious.Hackathon.Docusign/obj/Debug/net8.0/staticwebassets.development.json
+/Ingenious.Hackathon.Docusign/obj/Debug/net8.0/staticwebassets.pack.json

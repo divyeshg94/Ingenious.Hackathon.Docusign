@@ -4,7 +4,6 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-Ingenious.Hackathon.Docusign-f3e9dc38-0447-4320-9483-23990ed74cda</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

@@ -38,17 +38,21 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-nowrap justify-content-between gap-0">
                     @if (User.Identity?.IsAuthenticated == true)
                     {
-
-                        <ul class="navbar-nav flex-grow-1 align-center">
+                        <ul class="navbar-nav align-center">
                             <li class="nav-item">
-                                <a class="nav-link text-dark @Html.ActiveClass("/Home/Index")" asp-area="" asp-controller="Home" asp-action="Index">Index</a>
+                                <a class="nav-link text-dark" href="/Home/Index">Dashboard</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav align-center">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="/Agreement/Index">Agreement</a>
                             </li>
                         </ul>
                     }
-                    <partial name="_LoginPartial" />
+                    @await Html.PartialAsync("~/Views/Shared/_LoginPartial.cshtml")
                 </div>
             </div>
         </nav>
@@ -61,7 +65,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container-fluid">
-            &copy; @DateTime.UtcNow.Year - Ingenious - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; @DateTime.UtcNow.Year - Ingenious - <a href="/Home/Privacy">Privacy</a>
         </div>
     </footer>
 
