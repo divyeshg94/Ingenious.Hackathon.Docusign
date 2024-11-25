@@ -1,5 +1,7 @@
+using Ingenious.Hackathon.Docusign.Models;
 using Ingenious.Hackathon.Docusign.Services;
 using Ingenious.Hackathon.Docusign.Sql;
+using Ingenious.Hackathon.Docusign.Sql.Models;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Web;
@@ -8,8 +10,10 @@ using Microsoft.Identity.Web.UI;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var azureAdSection = builder.Configuration.GetSection("AzureAd");
+
 builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
-    .AddMicrosoftIdentityWebApp(builder.Configuration.GetSection("AzureAd"))
+    .AddMicrosoftIdentityWebApp(azureAdSection)
     .EnableTokenAcquisitionToCallDownstreamApi()
     .AddInMemoryTokenCaches();
 
@@ -36,8 +40,13 @@ builder.Services.AddDbContext<HackathonDbContext, HackathonDbContext>(options =>
            errorNumbersToAdd: null))  // Optionally specify SQL error numbers to retry on
        );
 
+builder.Services.Configure<DocuSignSettings>(builder.Configuration.GetSection("DocuSign"));
+builder.Services.Configure<DocuSignJWT>(builder.Configuration.GetSection("DocuSignJWT"));
+
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<DocuSignServices>();
+builder.Services.AddScoped<DocuSignTokenService>();
 
 var app = builder.Build();
 
