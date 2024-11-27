@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Ingenious.Hackathon.Docusign.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\DivyeshGovaerdhanan\\source\\repos\\Personal\\Ingenious.Hackathon.Docusign\\Ingenious.Hackathon.Docusign\\wwwroot\\Docusign.private.key",
+      "PackagePath": "staticwebassets\\Docusign.private.key"
+    },
+    {
+      "Id": "C:\\Users\\DivyeshGovaerdhanan\\source\\repos\\Personal\\Ingenious.Hackathon.Docusign\\Ingenious.Hackathon.Docusign\\wwwroot\\World_Wide_Corp_lorem.pdf",
+      "PackagePath": "staticwebassets\\World_Wide_Corp_lorem.pdf"
+    },
+    {
       "Id": "C:\\Users\\DivyeshGovaerdhanan\\source\\repos\\Personal\\Ingenious.Hackathon.Docusign\\Ingenious.Hackathon.Docusign\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

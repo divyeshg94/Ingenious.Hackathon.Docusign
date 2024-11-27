@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DocuSign.eSign.dll" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Ingenious.Hackathon.Docusign.Sql\Ingenious.Hackathon.Docusign.Sql.csproj" />
   </ItemGroup>
 

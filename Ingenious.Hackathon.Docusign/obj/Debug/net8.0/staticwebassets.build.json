@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BWWaiorfVgtrIVrOjVWf21Aoyci2Zi0zuErYJM+g5gQ=",
+  "Hash": "guTK8eWA1xLJnJEi6C3iezx2ruK46DFuEaIthDWl8vg=",
   "Source": "Ingenious.Hackathon.Docusign",
   "BasePath": "_content/Ingenious.Hackathon.Docusign",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\DivyeshGovaerdhanan\\source\\repos\\Personal\\Ingenious.Hackathon.Docusign\\Ingenious.Hackathon.Docusign\\wwwroot\\Docusign.private.key",
+      "SourceId": "Ingenious.Hackathon.Docusign",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DivyeshGovaerdhanan\\source\\repos\\Personal\\Ingenious.Hackathon.Docusign\\Ingenious.Hackathon.Docusign\\wwwroot\\",
+      "BasePath": "_content/Ingenious.Hackathon.Docusign",
+      "RelativePath": "Docusign.private.key",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Docusign.private.key"
     },
     {
       "Identity": "C:\\Users\\DivyeshGovaerdhanan\\source\\repos\\Personal\\Ingenious.Hackathon.Docusign\\Ingenious.Hackathon.Docusign\\wwwroot\\favicon.ico",
@@ -1193,6 +1212,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\DivyeshGovaerdhanan\\source\\repos\\Personal\\Ingenious.Hackathon.Docusign\\Ingenious.Hackathon.Docusign\\wwwroot\\World_Wide_Corp_lorem.pdf",
+      "SourceId": "Ingenious.Hackathon.Docusign",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DivyeshGovaerdhanan\\source\\repos\\Personal\\Ingenious.Hackathon.Docusign\\Ingenious.Hackathon.Docusign\\wwwroot\\",
+      "BasePath": "_content/Ingenious.Hackathon.Docusign",
+      "RelativePath": "World_Wide_Corp_lorem.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\World_Wide_Corp_lorem.pdf"
     }
   ]
 }

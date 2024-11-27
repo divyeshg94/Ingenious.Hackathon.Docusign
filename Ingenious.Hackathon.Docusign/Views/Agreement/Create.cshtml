@@ -1,0 +1,62 @@
+﻿@model Ingenious.Hackathon.Docusign.Sql.DataModels.AgreementCreationDto
+
+<div class="container mt-5">
+    <h2>Create Agreement</h2>
+    <form asp-action="CreateAgreement" method="post" enctype="multipart/form-data" class="mt-4">
+        <!-- Agreement Details -->
+        <div class="mb-3">
+            <label for="AgreementName" class="form-label">Agreement Name</label>
+            <input type="text" id="AgreementName" name="AgreementName" class="form-control" placeholder="Enter the name of the agreement" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="EmailSubject" class="form-label">Email Subject</label>
+            <input type="text" id="EmailSubject" name="EmailSubject" class="form-control" placeholder="Enter the subject of the email" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="EmailMessage" class="form-label">Email Message</label>
+            <textarea id="EmailMessage" name="EmailMessage" class="form-control" rows="3" placeholder="Write a message for the recipient"></textarea>
+        </div>
+
+        <!-- Upload Document -->
+        <div class="mb-3">
+            <label for="Document" class="form-label">Upload Document</label>
+            <input type="file" id="Document" name="Document" class="form-control" accept=".pdf,.docx,.txt" required>
+            <small class="form-text text-muted">Supported file types: PDF, DOCX, TXT</small>
+        </div>
+
+        <!-- Multiple Signers -->
+        <h5>Recipient Details</h5>
+        <div id="signers-container">
+            <div class="signer-item mb-3">
+                <label for="Signers[0].Name" class="form-label">Signer Name</label>
+                <input type="text" id="Signers[0].Name" name="Signers[0].Name" class="form-control" placeholder="Enter signer name" required>
+                <label for="Signers[0].Email" class="form-label mt-2">Signer Email</label>
+                <input type="email" id="Signers[0].Email" name="Signers[0].Email" class="form-control" placeholder="Enter signer email" required>
+            </div>
+        </div>
+        <button type="button" class="btn btn-secondary mb-3" onclick="addSigner()">Add Another Signer</button>
+
+        <!-- Submit -->
+        <button type="submit" class="btn btn-primary">Create Agreement</button>
+    </form>
+</div>
+
+<script>
+    let signerCount = 1;
+
+    function addSigner() {
+        const container = document.getElementById('signers-container');
+        const signerItem = document.createElement('div');
+        signerItem.className = 'signer-item mb-3';
+        signerItem.innerHTML = `
+                <label for="Signers[${signerCount}].Name" class="form-label">Signer Name</label>
+                <input type="text" id="Signers[${signerCount}].Name" name="Signers[${signerCount}].Name" class="form-control" placeholder="Enter signer name" required>
+                <label for="Signers[${signerCount}].Email" class="form-label mt-2">Signer Email</label>
+                <input type="email" id="Signers[${signerCount}].Email" name="Signers[${signerCount}].Email" class="form-control" placeholder="Enter signer email" required>
+            `;
+        container.appendChild(signerItem);
+        signerCount++;
+    }
+</script>

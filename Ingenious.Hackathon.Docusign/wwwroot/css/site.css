@@ -20,3 +20,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.nav-link {
+    pointer-events: auto;
+    cursor: pointer;
+}

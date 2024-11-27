@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\DivyeshGovaerdhanan\source\repos\Personal\Ingenious.Hackathon.Docusign\Ingenious.Hackathon.Docusign
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/DivyeshGovaerdhanan/source/repos/Personal/Ingenious.Hackathon.Docusign/Ingenious.Hackathon.Docusign/Views/Agreement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdyZWVtZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DivyeshGovaerdhanan/source/repos/Personal/Ingenious.Hackathon.Docusign/Ingenious.Hackathon.Docusign/Views/Agreement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdyZWVtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DivyeshGovaerdhanan/source/repos/Personal/Ingenious.Hackathon.Docusign/Ingenious.Hackathon.Docusign/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
